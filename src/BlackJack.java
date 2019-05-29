@@ -115,7 +115,7 @@ public class BlackJack {
             }
 
             //user has selected to play the game.
-            if (userOption != 1)
+            if (userOption == 1)
             {
                 System.out.println("Please enter players name: ");
                 Person person = new Player();
